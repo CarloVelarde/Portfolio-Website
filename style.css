@@ -618,3 +618,16 @@ body:hover #cursor{
    }
 }
 
+
+
+
+/* Disables mouse effect for small screens */
+@media (max-width: 767px) {
+   body {
+       cursor: auto; /* Reset to default cursor */
+   }
+   #cursor, .element {
+       display: none; /* Hide custom cursor and trails */
+   }
+}
+
