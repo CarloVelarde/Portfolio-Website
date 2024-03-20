@@ -588,6 +588,18 @@ body:hover #cursor{
 }
 
 @media(max-width:600px){
+
+   .about {
+      margin:2rem 3rem;
+   }
+   .about-content{
+      padding:3rem;
+   }
+
+
+   .about-content h3{
+      font-size:3.5rem;
+   }
    .project-list{
       flex-direction:column;
       flex-wrap: wrap;
@@ -596,6 +608,13 @@ body:hover #cursor{
 
    .project-items{
       width:90%;
+   }
+
+   .contact-content h3{
+      font-size:4rem;
+   }
+   .contact-content a {
+      font-size:2rem;
    }
 }
 
