@@ -8,8 +8,8 @@ let body = document.querySelector('body');
 
 document.onmousemove = function(e){
    // Moves the cursor
-   cursor.style.top = e.pageY + 'px';
-   cursor.style.left = e.pageX + 'px';
+   cursor.style.top = e.clientY + 'px';
+   cursor.style.left = e.clientX + 'px';
 
    // Animates background
    body.style.backgroundPositionX = e.pageX/-4 + 'px';
